@@ -1,4 +1,4 @@
-file=open("database531.txt","w+")
+file=open("database53.txt","w")
 i=1
 
 while i<6:
