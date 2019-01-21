@@ -14,9 +14,4 @@ while i<len(li):
         diz[li[i][1]]=1
     i+=1
 
-chiavi=sorted(diz.values())
-maggiore=chiavi[-1]
-
-for name, age in diz.items():
-    if age == maggiore:
-        print (name, maggiore)
+print(diz)
